@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td {
+            border: 2px solid #000;
+            border-collapse: collapse;
+            background-color: transparent;
+            width: 900px;
+            margin: 20px auto;
+            text-align: center;
+            font-size: larger;
+            padding: 20px;
+            align-items: center;
+            font-size: 25px;
+        }
+
+        fieldset {
+            width: 54%;
+            height: 500px;
+            margin: 50px auto;
+            padding-top: 30px;
+            padding-left: 40px;
+            border: 2px solid gray;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td style="background-color: lawngreen;"><b>Step 1: Account</b></td>
+            <td style="background-color:  lawngreen;"><b>Step 2: Personal Details</b></td>
+            <td style="background-color:  royalblue;"><b>Step 3: Your review</b></td>
+        </tr>
+
+
+    </table>
+
+
+    <fieldset>
+        <legend>
+            <b>YOUR REVIEW:</b>
+        </legend>
+        <span style="font-size: 30px;">
+            <label for="about"><b>How did you hear about us?</b></label>
+        </span>
+        <select name="option" id="about" style="font-size: 20px;">
+            <option name="option">SELECT YOUR OPTION</option>
+<option name="option" value="social">social media</option>
+<option name="option" value="newspaper">newspaper</option>
+<option name="option" value="tv">tv</option>
+        </select>
+        
+        <br>
+    <br>
+        <span style="font-size: 30px;">
+            <label for="visit"><b>Would you vist again?</b></label>
+            <br>
+        </span>
+        <span style="font-size: 30px;">
+        <input type="radio" name="visit" id="visit" size="40"
+            style="font-size: 30px" style="padding-top: 0%;">Yes
+            <input type="radio" name="visit" id="visit" size="40"
+            style="font-size: 30px" style="padding-top: 0%;">No
+            <input type="radio" name="visit" id="visit" size="40"
+            style="font-size: 30px" style="padding-top: 0%;">Maybe
+        </span>
+        <br><br>
+
+        <span style="font-size: 30px;">
+            <label for="comments"><b> COMMENTS:</b></label>
+            <br>
+        </span>
+            <textarea name="comments" cols="50" rows="3" id="comments" style="font-size: 15px">Enter Your Comments</textarea>
+        <br>
+        <br>        
+        
+   <span style="font-size: 20px;"> <b>DOCUMENTS:
+</b></span>
+    <p>
+<input type="file"></p>
+        <span style="font-size: 30px;">
+            <input type="checkbox" name="sign" id="sign" style="font-size: 50px" style="padding-top: 0%;">
+            <label for="sign">Sign me up for Email Updates</label>
+            </span>
+
+            <form style="padding-top: 40px">
+                <a href="personal.html"><img src="images/back.png" alt="error" height="50px"></a>_
+                <a href="submit"><img src="images/submit.png" alt="error" height="50px"></a>
+            </form>
+    </fieldset>
+
+</body>
+
+</html>
